@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+body {
+    width: 375px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+    font-family: Overpass;
+    font-size: 15px;
+}
+
+.container {
+    display: block;
+    background-color: hsl(213, 19%, 18%);
+    width: 80%;
+    margin: 150px auto;
+    border-radius: 15px;
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin: 20px 0px 10px 30px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: hsl(228, 11%, 9%);
+}
+
+h1 img {
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+    padding: 12px 12px 12px 12px;
+}
+
+
+h2 {
+    display: block;
+    position: absolute;
+    width: 80%;
+    margin: 80px 30px 0px 30px;
+    padding: 0;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    display: block;
+    position: absolute;
+    width: 70%;
+    margin: 110px 30px 0px 30px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+}
+
+.scoring-menu {
+    display: block;
+    position: absolute;
+    width: 80%;
+    margin: 190px 30px 0 30px;
+}
+
+.scoring-button {
+    display: inline;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: hsl(228, 11%, 9%);
+    color: hsl(216, 12%, 54%);
+    margin-left: 10px;
+}
+
+.submit-button {
+    display: block;
+    margin: 20px 0px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
