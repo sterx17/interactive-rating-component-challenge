@@ -2,84 +2,110 @@
 
 body {
     width: 375px;
-    background-color: hsl(216, 12%, 8%);
-    margin: 0;
+    background-color: black;
+    margin: auto;
     padding: 0;
     font-family: Overpass;
     font-size: 15px;
 }
 
 .container {
-    display: block;
-    background-color: hsl(213, 19%, 18%);
-    width: 80%;
-    margin: 150px auto;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+    padding: 25px;
     border-radius: 15px;
+    margin: 0px 20px; /* 70 top*/
 }
 
 h1 {
     display: block;
-    position: absolute;
     width: 36px;
     height: 36px;
-    margin: 20px 0px 10px 30px;
     padding: 0;
     border-radius: 50%;
-    background-color: hsl(228, 11%, 9%);
+    background-color: hsl(213, 19%, 18%);
 }
 
 h1 img {
-    display: block;
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    margin: auto;
-    padding: 12px 12px 12px 12px;
+    width: 35%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12px 12px 12px 11px;
+    padding: 0;
 }
 
-
 h2 {
-    display: block;
-    position: absolute;
-    width: 80%;
-    margin: 80px 30px 0px 30px;
-    padding: 0;
-    font-weight: 700;
+    padding: 20px 0;
     color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 p {
-    display: block;
-    position: absolute;
-    width: 70%;
-    margin: 110px 30px 0px 30px;
-    color: hsl(216, 12%, 54%);
-    font-weight: 400;
+    font-weight: 500;
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 20px;
 }
 
 .scoring-menu {
-    display: block;
-    position: absolute;
-    width: 80%;
-    margin: 190px 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
 }
 
 .scoring-button {
-    display: inline;
     width: 36px;
     height: 36px;
+    padding: 0;
     border-radius: 50%;
-    background-color: hsl(228, 11%, 9%);
-    color: hsl(216, 12%, 54%);
-    margin-left: 10px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    font-size: 11px;
+}
+
+.scoring-button:hover {
+    border: 2px solid white;
+}
+
+.scoring-button:active {
+    background-color: white;
+    color: black;
 }
 
 .submit-button {
-    display: block;
-    margin: 20px 0px;
-    width: 85%;
-    padding: 10px;
+    height: 40px;
     border-radius: 30px;
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    border: none;
 }
+
+.submit-button:hover {
+    border: 2px solid white;
+}
+
+.submit-button:active {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+footer {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+}
+
+footer a {
+    color: white;
+}
+
